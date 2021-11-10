@@ -26,7 +26,7 @@ def _(*args, **kwargs):
 #_("jupyter", "labextension", "install", "@jupyterlab/github")
 
 # install TOC extension
-_("jupyter", "labextension", "install", "@jupyterlab/toc")
+#_("jupyter", "labextension", "install", "@jupyterlab/toc")
 
 # install topbar extension
 #_("jupyter", "labextension", "install", 
