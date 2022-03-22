@@ -4,6 +4,9 @@ channels:
   - r
   - defaults
 dependencies:
+  # Python
+  - pandas ==1.2.4
+  - natsort ==7.0.1
   # Jupyter and JupyterHub dependencies
   - r-irkernel ==1.2
   - bash_kernel ==0.7.2
