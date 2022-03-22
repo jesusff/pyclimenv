@@ -1,14 +1,14 @@
 name: basic
 channels:
   - conda-forge
-  - r
   - defaults
 dependencies:
   # Python
   - pandas ==1.2.4
+  - xarray ==0.15.1
+  - xesmf ==0.3.0
   - natsort ==7.0.1
   # Jupyter and JupyterHub dependencies
-  - r-irkernel ==1.2
   - bash_kernel ==0.7.2
   - jupyter ==1.0.0 
   - jupyterhub ==1.5.0
@@ -24,5 +24,4 @@ dependencies:
   - pip ==21.2.4
   - wheel ==0.37.0
   # Other
-  - nano ==2.9.8
   - gh ==2.2.0
