@@ -4,32 +4,26 @@ channels:
   - defaults
 dependencies:
   # Python
-  - cartopy ==0.20.2
+  - cartopy #==0.20.2
   - dask
-  - natsort ==7.0.1
-  - pandas ==1.2.4
-  - seaborn ==0.11.2
-  - xarray ==0.15.1
-  - xesmf ==0.3.0
-  # Jupyter and JupyterHub dependencies
-  - bash_kernel ==0.7.2
-  - jupyter ==1.0.0 
-  - jupyterhub ==1.5.0
-  - notebook ==6.4.2
-  - jupyterlab ==3.1.17
-  - jupyter_nbextensions_configurator ==0.4.1
-  - rise ==5.7.1
+  - doi2bib #==0.4.0
+  - esgf-pyclient #==0.3.1
+  - natsort #==7.0.1
+  - pandas #==1.2.4
+  - seaborn #==0.11.2
+  - xarray #==0.15.1
+  - xesmf #==0.3.0
+  # Jupyter dependencies
+  - bash_kernel #==0.7.2
+  - rise #==5.7.1
   # required to decouple binder and repo
-  - nbgitpuller ==1.0.2
+  - nbgitpuller #==1.0.2
   # optional jupyterlab extensions (i.e. git) build dependencies
-  - jupyterlab-git ==0.33.0
-  - nodejs ==15.14.0
-  - pip ==21.2.4
-  - wheel ==0.37.0
+  - jupyterlab-git #==0.33.0
+  - nodejs #==15.14.0
+  - pip #==21.2.4
+  - wheel #==0.37.0
   # Other
-  - cdo ==1.9.10
-  - nco ==5.0.6
-  - gh ==2.2.0
-  - pip:
-    - doi2bib ==0.4.0
-    - esgf-pyclient ==0.3.1
+  - cdo #==1.9.10
+  - nco #==5.0.6
+  - gh #==2.2.0
